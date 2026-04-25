@@ -1,0 +1,105 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: linear-gradient(180deg, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+/* Header */
+header {
+  text-align: center;
+  padding: 40px;
+  background: rgba(0,0,0,0.6);
+}
+
+/* Navbar */
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  background: #111;
+  margin: 0;
+  padding: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #00d4ff;
+  text-decoration: none;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+  background: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e') no-repeat center/cover;
+}
+
+/* Sections */
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section.dark {
+  background: rgba(0,0,0,0.5);
+}
+
+/* Cards */
+.cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: rgba(255,255,255,0.1);
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+/* Tools */
+.tools {
+  list-style: none;
+  padding: 0;
+}
+
+.tools li {
+  margin: 10px;
+}
+
+/* Form */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input, form textarea {
+  margin: 10px;
+  padding: 10px;
+  width: 300px;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Button */
+button {
+  padding: 10px 20px;
+  background: #00d4ff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: black;
+}
